@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		823ECA172018A9480072AB0D /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 823ECA162018A9480072AB0D /* Photo.m */; };
+		823ECA1D201905A70072AB0D /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 823ECA1C201905A70072AB0D /* CustomCell.m */; };
 		82BC844E2017B0C200A8F273 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC844D2017B0C200A8F273 /* main.m */; };
 		82BC84512017B0C200A8F273 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC84502017B0C200A8F273 /* AppDelegate.m */; };
 		82BC84542017B0C200A8F273 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC84532017B0C200A8F273 /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		823ECA152018A9480072AB0D /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		823ECA162018A9480072AB0D /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		823ECA1B201905A70072AB0D /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCell.h; path = ../CustomCell.h; sourceTree = "<group>"; };
+		823ECA1C201905A70072AB0D /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCell.m; path = ../CustomCell.m; sourceTree = "<group>"; };
 		82BC84492017B0C200A8F273 /* Cats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BC844D2017B0C200A8F273 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		82BC844F2017B0C200A8F273 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +68,10 @@
 				82BC84502017B0C200A8F273 /* AppDelegate.m */,
 				82BC84522017B0C200A8F273 /* ViewController.h */,
 				82BC84532017B0C200A8F273 /* ViewController.m */,
+				823ECA152018A9480072AB0D /* Photo.h */,
+				823ECA162018A9480072AB0D /* Photo.m */,
+				823ECA1B201905A70072AB0D /* CustomCell.h */,
+				823ECA1C201905A70072AB0D /* CustomCell.m */,
 				82BC84552017B0C200A8F273 /* Main.storyboard */,
 				82BC84582017B0C200A8F273 /* Assets.xcassets */,
 				82BC845A2017B0C200A8F273 /* LaunchScreen.storyboard */,
@@ -150,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823ECA172018A9480072AB0D /* Photo.m in Sources */,
 				82BC84542017B0C200A8F273 /* ViewController.m in Sources */,
 				82BC84512017B0C200A8F273 /* AppDelegate.m in Sources */,
 				82BC844E2017B0C200A8F273 /* main.m in Sources */,
+				823ECA1D201905A70072AB0D /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +321,7 @@
 				82BC84622017B0C200A8F273 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
